@@ -1,4 +1,4 @@
-package src.test.java.io.x
+package io.x
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

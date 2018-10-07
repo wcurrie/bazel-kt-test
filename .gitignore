@@ -1,5 +1,5 @@
 .idea/
-.ijwb/.idea/libraries/
+.ijwb/
 
 bazel-bin
 bazel-genfiles
