@@ -1,3 +1,5 @@
+Test repo for https://github.com/johnynek/bazel-deps/pull/154
+
 Regenerating workspace.bzl from maven dependencies in dependencies.yaml
 
     ../bazel-deps/gen_maven_deps.sh generate --repo-root $PWD --sha-file third_party/workspace.bzl --deps dependencies.yaml
