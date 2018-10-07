@@ -1,0 +1,8 @@
+.idea/
+.ijwb/.idea/libraries/
+
+bazel-bin
+bazel-genfiles
+bazel-hibazel
+bazel-out
+bazel-testlogs
