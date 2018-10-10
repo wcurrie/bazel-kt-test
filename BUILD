@@ -9,7 +9,7 @@ java_binary(
 )
 
 kt_jvm_binary(
-    name = "kt-hi",
+    name = "HiKt",
     main_class = "io.x.HiKt",
     srcs = glob(["src/main/java/io/x/Hi.kt"]),
     deps = [
@@ -19,7 +19,7 @@ kt_jvm_binary(
 )
 
 kt_jvm_test(
-    name = "kt-test",
+    name = "TestKt",
     srcs = glob(["src/test/java/io/x/HiTest.kt"]),
     deps = [
         "//third_party/jvm/junit:junit"
